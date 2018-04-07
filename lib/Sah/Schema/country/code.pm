@@ -18,6 +18,8 @@ our $schema = [str => {
 
 Accept only current (not retired) codes. Alpha-2 or alpha-3 codes are accepted.
 
+Code will be converted to lowercase.
+
 _
     match => '\A[a-z]{2,3}\z',
     in => $codes,
