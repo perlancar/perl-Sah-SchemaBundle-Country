@@ -1,6 +1,8 @@
 package Sah::Schema::country::code::alpha2;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 use Locale::Codes::Country_Codes ();
@@ -22,7 +24,7 @@ Code will be converted to lowercase.
 _
     match => '\A[a-z]{2}\z',
     in => $codes,
-    'x.perl.coerce_rules' => ['str_tolower'],
+    'x.perl.coerce_rules' => ['From_str::to_lower'],
 }, {}];
 
 1;
