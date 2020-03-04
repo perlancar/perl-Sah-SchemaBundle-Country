@@ -28,8 +28,8 @@ _
     'x.perl.coerce_rules' => ['From_str::to_lower'],
     examples => [
         {value=>'', valid=>0},
-        {value=>'ID' , valid=>1, res=>'id'},
-        {value=>'IDN', valid=>1, res=>'idn'},
+        {value=>'ID' , valid=>1, validated_value=>'id'},
+        {value=>'IDN', valid=>1, validated_value=>'idn'},
         {value=>'xx', valid=>0},
         {value=>'xxx', valid=>0},
     ],

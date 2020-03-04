@@ -28,7 +28,7 @@ _
     examples => [
         {value=>'', valid=>0},
         {value=>'ID' , valid=>0, summary=>'Only alpha-3 codes are allowed'},
-        {value=>'IDN', valid=>1, res=>'idn'},
+        {value=>'IDN', valid=>1, validated_value=>'idn'},
         {value=>'xx', valid=>0},
         {value=>'xxx', valid=>0},
     ],

@@ -27,7 +27,7 @@ _
     'x.perl.coerce_rules' => ['From_str::to_lower'],
     examples => [
         {value=>'', valid=>0},
-        {value=>'ID' , valid=>1, res=>'id'},
+        {value=>'ID' , valid=>1, validated_value=>'id'},
         {value=>'IDN', valid=>0, summary=>'Only alpha-2 codes are allowed'},
         {value=>'xx', valid=>0},
         {value=>'xxx', valid=>0},
