@@ -27,11 +27,11 @@ _
     in => $codes,
     'x.perl.coerce_rules' => ['From_str::to_lower'],
     examples => [
-        {data=>'', valid=>0},
-        {data=>'ID' , valid=>1, res=>'id'},
-        {data=>'IDN', valid=>1, res=>'idn'},
-        {data=>'xx', valid=>0},
-        {data=>'xxx', valid=>0},
+        {value=>'', valid=>0},
+        {value=>'ID' , valid=>1, res=>'id'},
+        {value=>'IDN', valid=>1, res=>'idn'},
+        {value=>'xx', valid=>0},
+        {value=>'xxx', valid=>0},
     ],
 }, {}];
 

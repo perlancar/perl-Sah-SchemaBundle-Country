@@ -26,11 +26,11 @@ _
     in => $codes,
     'x.perl.coerce_rules' => ['From_str::to_lower'],
     examples => [
-        {data=>'', valid=>0},
-        {data=>'ID' , valid=>0, summary=>'Only alpha-3 codes are allowed'},
-        {data=>'IDN', valid=>1, res=>'idn'},
-        {data=>'xx', valid=>0},
-        {data=>'xxx', valid=>0},
+        {value=>'', valid=>0},
+        {value=>'ID' , valid=>0, summary=>'Only alpha-3 codes are allowed'},
+        {value=>'IDN', valid=>1, res=>'idn'},
+        {value=>'xx', valid=>0},
+        {value=>'xxx', valid=>0},
     ],
 }, {}];
 
