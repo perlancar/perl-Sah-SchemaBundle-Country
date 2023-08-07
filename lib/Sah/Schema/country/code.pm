@@ -1,13 +1,12 @@
 package Sah::Schema::country::code;
 
 use strict;
+use Locale::Codes::Country_Codes ();
 
 # AUTHORITY
 # DATE
 # DIST
 # VERSION
-
-use Locale::Codes::Country_Codes ();
 
 my $codes = [];
 my $names = [];
@@ -47,7 +46,7 @@ _
         {value=>'xx', valid=>0},
         {value=>'xxx', valid=>0},
     ],
-}, {}];
+}];
 
 1;
 # ABSTRACT:

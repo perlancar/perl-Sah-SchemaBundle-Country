@@ -1,5 +1,7 @@
 package Sah::Schemas::Country;
 
+use strict;
+
 # AUTHORITY
 # DATE
 # DIST
