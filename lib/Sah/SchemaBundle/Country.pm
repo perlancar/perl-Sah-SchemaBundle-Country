@@ -1,4 +1,4 @@
-package Sah::Schemas::Country;
+package Sah::SchemaBundle::Country;
 
 use strict;
 
